@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { DataToCalculate } from 'src/app/dataToCalculate';
+import { DataToCalculate } from 'src/app/DataToCalculate';
 
 @Component({
   selector: 'app-form-component',

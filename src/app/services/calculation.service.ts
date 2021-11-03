@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { CalculationResult } from '../CalculationResult';
-import { DataToCalculate } from '../dataToCalculate';
+import { DataToCalculate } from '../DataToCalculate';
 import { AeroflotTariffs, RailroadTariffs } from '../Tariffs';
 
 @Injectable({

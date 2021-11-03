@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DataToCalculate } from './dataToCalculate';
+import { DataToCalculate } from './DataToCalculate';
 import { CalculationService } from './services/calculation.service';
 
 @Component({

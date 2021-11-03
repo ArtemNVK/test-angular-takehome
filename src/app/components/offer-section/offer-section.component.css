@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+.section-header-container {
+    border-bottom: 0.1px #f2f0f0 solid;
+    background-color: #f2f0f0;
+}
+
+.section-header {
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 530px) {
+    .container {
+        min-width: 300px;
+    }
+}

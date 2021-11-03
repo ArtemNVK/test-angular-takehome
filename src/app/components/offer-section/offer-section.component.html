@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="section-header-container">
+        <h4 class="section-header title">{{option.transport}}</h4>
+    </div>
+    <p *ngIf="option.tariffs.length < 1">Совпадений не найдено. Попробуйте ввести другие данные</p>
+    <app-offer-item *ngFor="let tariff of option.tariffs" [tariff]="tariff" ></app-offer-item>
+</div>
+

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { DataToCalculate } from './dataToCalculate';
+import { CalculationService } from './services/calculation.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'testAngularTask';
+  options: any = [];
+
+  constructor(private calculationService: CalculationService) {}
+
+  calculateResult(dataToCalculate: DataToCalculate) {
+    this.options = this.calculationService.calculate(dataToCalculate);
+    console.log('РАССЧЕТ', this.options);
+  }
+
 }

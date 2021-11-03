@@ -1,0 +1,15 @@
+<form class="form" (ngSubmit)="onSubmit()"> 
+    <div class="row">
+        <label for="km">Количество километров</label>
+        <input type="number" name="km" id="km" [(ngModel)]="km"/>
+    </div>
+    <div class="row">
+        <label for="age">Возраст</label>
+        <input type="number" name="age" id="age" [(ngModel)]="age"/>
+    </div>
+    <div class="row">
+        <label for="luggageWeight">Вес багажа</label>
+        <input type="number" name="luggageWeight" id="luggageWeight" [(ngModel)]="luggageWeight" />
+    </div>
+    <input class="button" type="submit" value="Рассчитать" />
+</form>

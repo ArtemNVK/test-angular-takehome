@@ -1,0 +1,9 @@
+.item {
+    border-bottom: 0.1px #f2f0f0 solid;
+    padding: 2px;
+}
+
+.item p {
+    margin-left: 8px;
+    font-size: 12px;
+}
